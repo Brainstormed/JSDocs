@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Quicksand&display=swap');
+
+@media only screen and (max-width: 815px) {
+    #navbar {
+        margin-top: 2vh;
+        background-color: white;
+        position: relative;
+        top: 0;
+        padding: 0;
+        width: 95%;
+        height: 50%;
+        z-index: 1;
+        order: none;
+        outline: solid #000000;
+    }
+  
+    #main-doc {
+        position: relative;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+  }
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+
+main {
+    margin-left: 30vw;
+}
+
+header {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+code {
+    display: block;
+    background-color: rgb(236, 236, 236);
+    margin: auto auto auto 30px;
+    font-size: 13px;
+    padding: 12px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+nav {
+    position: fixed;
+    margin: auto;
+    padding: 20px;
+    border: black solid 2px;
+    height: 90vh;
+}
+
+nav ul {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.sq-ul {
+    list-style-type: square;
+}
+
+.hollow-ul {
+    list-style-type: circle;
+}
+
+.toc_element {
+    width: 100%;
+}
